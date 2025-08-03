@@ -8,9 +8,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('cover250.jpg');
+      background: url('cover250.jpg') no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
       margin: 0;
       padding: 0;
       display: flex;
@@ -19,7 +18,7 @@
       justify-content: center;
       min-height: 100vh;
       text-align: center;
-      backdrop-filter: brightness(0.9);
+      backdrop-filter: brightness(0.7);
     }
 
     img.logo {
@@ -30,12 +29,14 @@
 
     h1 {
       font-size: 2em;
-      color: #fff;
+      color: #ffffff;
+      text-shadow: 0 0 5px #000;
     }
 
     p {
       font-size: 1.1em;
-      color: #f0f0f0;
+      color: #ffffff;
+      text-shadow: 0 0 5px #000;
       margin-bottom: 30px;
       max-width: 90%;
     }
@@ -50,11 +51,12 @@
     }
 
     .feature-item {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.95);
       border-radius: 10px;
       padding: 20px;
       width: 250px;
       text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
     .feature-item img {
@@ -80,10 +82,11 @@
     }
 
     .contact {
-      background-color: rgba(255, 255, 255, 0.85);
+      background-color: rgba(255, 255, 255, 0.95);
       padding: 20px;
       border-radius: 12px;
       margin: 40px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
     .contact h2 {
@@ -118,7 +121,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <img src="JommeStore logo.png" alt="JommeStore Logo" class="logo" />
+  <img src="logo.png" alt="JommeStore Logo" class="logo" />
   <h1>Welcome to JommeStore 👋</h1>
   <p>Your trusted online destination for affordable Electronics, trendy Phone Gadgets, stylish Home Essentials, and top-quality Beauty Products. Fast delivery, weekly deals, and 100% satisfaction guaranteed!</p>
   <p>At JommeStore, we’re committed to giving you a smooth and secure shopping experience from the comfort of your home. Explore the latest tech, discover must-have home and beauty items, and enjoy unbeatable prices—all backed by responsive customer support and flexible payment options.</p>
