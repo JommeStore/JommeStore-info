@@ -26,5 +26,6 @@
 If you're a supplier, delivery partner, or developer, feel free to reach out!  
 📞 Phone/WhatsApp: +233 508809592  
 📧 Email: marteijoseph301@gmail.com
+<meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I" />
 
 
